@@ -174,7 +174,7 @@ You may have noticed the method we used to call StackDriver is synchronous.  Can
 
 # Summary
 
-That completes this hands-on lesson. In this simple lab you learned how to protect target servers against denial of service attacks.
+That completes this hands-on lesson. In this lab you learned how to remotely log to [Google Stackdriver](https://cloud.google.com/stackdriver).
 
 # References
 
