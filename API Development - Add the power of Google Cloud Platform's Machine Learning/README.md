@@ -14,10 +14,13 @@ Core idea is to power a range of new API-based features designed to accelerate i
 **About Google Machine Learning:**
 Google Cloud's AI provides modern machine learning services, with pre-trained models and a service to generate your own tailored models. Neural net-based ML service has better training performance and increased accuracy compared to other large scale deep learning systems. These services are fast, scalable and easy to use. Major Google applications use Cloud machine learning, including Photos (image search), the Google app (voice search), Translate, and Inbox (Smart Reply). 
 
-*Details for **Data Loss Prevention APIs** can be found here:  https://cloud.google.com/dlp/
-*Details for **Natural Language APIs** can be found here:  https://cloud.google.com/natural-language/
-*Details for **Vision APIs** can be found here:  https://cloud.google.com/vision/
-*Details for **everything Machine Learning** and more: https://cloud.google.com/products/machine-learning/
+Details for **Data Loss Prevention APIs** can be found here:  https://cloud.google.com/dlp/
+
+Details for **Natural Language APIs** can be found here:  https://cloud.google.com/natural-language/
+
+Details for **Vision APIs** can be found here:  https://cloud.google.com/vision/
+
+Details for **everything Machine Learning** and more: https://cloud.google.com/products/machine-learning/
 
 
 
