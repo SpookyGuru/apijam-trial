@@ -2,7 +2,7 @@
 
 *Duration : 20 mins*
 
-*Persona : API Team / Security*
+*Persona : API Team / Operations*
 
 # Use case
 
@@ -10,13 +10,13 @@ You have a requirement to log data to a central monitoring tool. [Google Stackdr
 
 # How can Apigee Edge help?
 
-By exposing an API through Apigee Edge, you gain the ability to log data to [Google Stackdriver](https://cloud.google.com/stackdriver) using out-of-the-box policies. Edge's Service Callout policy enables you to enhance your API with remote logging features to centrally monitor your APIs without requiring you to write any code or to modify any backend services.
+By exposing an API through Apigee Edge, you gain the ability to log data to [Google Stackdriver](https://cloud.google.com/stackdriver) using out-of-the-box policies. Edge's Service Callout policy enables you to enhance your API with remote logging features to centrally monitor your APIs without requiring heavy coding or modifying any backend services.
 
 In this lab we will see how to use an out-of-the-box remote callout policy, "Service Callout", to remotely log to [Google Stackdriver](https://cloud.google.com/stackdriver). A Service Callout policy can be used by an API proxy to make additional calls to remote systems during the processing of a proxy flow.
 
 # Pre-requisites
 
-Apigee Edge API Proxy created in earlier lab exercise. If not, jump back to "API Design - Create a Reverse Proxy with OpenAPI specification" lab.
+An Apigee Edge API Proxy created in an earlier lab exercise. If not, jump back to "API Design - Create a Reverse Proxy with OpenAPI specification" lab.
 
 # Instructions
 
@@ -26,7 +26,7 @@ Apigee Edge API Proxy created in earlier lab exercise. If not, jump back to "API
 
 ![image alt text](./media/image_2.jpg)
 
-* Click on **{your_initials}**_employee_proxy that you have created in earlier lab exercise.
+* Click on **{your_initials}**_employee_proxy (or whatever you named it) that you have created during an earlier lab exercise.
 
 
 ![image alt text](./media/image_3.png)
@@ -168,9 +168,9 @@ You may have noticed the method we used to call StackDriver is synchronous.  Can
 
 # Quiz
 
-1.
+1. Is it possible to implement the Service Callout using variables instead of hardcoded URLs?  If so, could the variables be set for an environment?
 
-2.
+2. Why do we have 'context' references in the JavaScript policy's code?
 
 # Summary
 
